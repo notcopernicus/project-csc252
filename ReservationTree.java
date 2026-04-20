@@ -12,7 +12,7 @@ public class ReservationTree {
 
     private Node root;
 
-    // The logic to Prevent Conflicts [cite: 183, 190]
+    //ƒ The logic to Prevent Conflicts [cite: 183, 190]
     private boolean hasOverlap(Node node, int newStart, int newEnd) {
         if (node == null) return false;
 
