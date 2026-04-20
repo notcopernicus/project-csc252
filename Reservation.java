@@ -15,7 +15,7 @@ public class Reservation {
         this.endTime       = endTime;
     }
 
-    // ---------- Getters ----------
+    // Getters
     public String getID()     { return reservationID; }
     public String getRoomID() { return roomID; }
     public int    getStart()  { return startTime; }
