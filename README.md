@@ -21,4 +21,8 @@ Step 3 — Run:
 
 studyspace.app.CliApp
 
+### Note
+
 *Sample data is used however users can enter their own additional buildings and rooms*
+
+*Disregard test folder is not part of the final submission. Please refer to StudySpaceFinder/ for the complete project.*
