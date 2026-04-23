@@ -1,41 +1,24 @@
 # StudySpace Finder System
 
-# Divison of Labor
-Harmony Barber
+# Description
 
-RoomManager.java — HashMap-based room storage (add, search, remove, display)
-RoomManagementApp.java — Standalone room management CLI
-Room.java (initial version) — Room entity model
+StudySpace Finder is a command-line application that helps students find and reserve study rooms on campus. Users can manage buildings and rooms, make and cancel reservations with automatic conflict detection, and find the nearest available room matching their capacity, features, and time slot using Dijkstra's shortest path algorithm.
 
-Chase
 
-CampusGraph.java — Weighted undirected graph using adjacency list
-Edge.java — Graph edge model (destination + weight)
-RoomCandidate.java — Helper class for priority queue routing
+# Build and Run Instructions
 
-Najhier
+In the terminal...
 
-CliApp.java — Main unified CLI tying all modules together
-StudySpaceService.java — Room and building management service
-RoutingService.java — Dijkstra's shortest path algorithm
-Building.java, Reservation.java, StudentRequest.java — Model classes
-Integration of all components into the final package system
+Step 1 — Navigate into the project folder
 
-Copernic
-
-ReservationTree.java — AVL BST for reservation scheduling
-ReservationService.java — Reservation make/cancel/conflict detection
-Interval overlap conflict detection logic
-Next-available-time calculation
-
-# Build Instructions
-
-Step 1 — Navigate into the project folder:
-bashcd StudySpaceFinder
+cd StudySpaceFinder
 
 Step 2 — Compile:
-bashjavac studyspace/model/*.java studyspace/structures/*.java studyspace/services/*.java studyspace/app/*.java
+
+javac studyspace/model/*.java studyspace/structures/*.java studyspace/services/*.java studyspace/app/*.java
 
 Step 3 — Run:
-bashjava studyspace.app.CliApp
-That's it. Sample data loads automatically when it starts up.
+
+studyspace.app.CliApp
+
+*Sample data is used however users can enter their own additional buildings and rooms*
