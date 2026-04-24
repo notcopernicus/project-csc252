@@ -17,12 +17,15 @@ Step 2 — Compile:
 
 javac studyspace/model/*.java studyspace/structures/*.java studyspace/services/*.java studyspace/app/*.java
 
+
 Step 3 — Run:
 
-studyspace.app.CliApp
+java studyspace.app.CliApp
 
 ### Note
 
-*Sample data is used however users can enter their own additional buildings and rooms*
+*Sample data is used however users can enter their own additional buildings and rooms with CSV data generated in /data*
 
 *Disregard test folder is not part of the final submission. Please refer to StudySpaceFinder/ for the complete project.*
+
+*Time values must be entered in 24-hour HH:MM format with leading zeros (e.g., 09:00 instead of 9:00).*
