@@ -1,0 +1,5 @@
+roomID,buildingID,capacity,features
+R101,LIB,4,quiet
+R203,SCI,6,projector
+R305,ENG,8,"whiteboard,quiet"
+R110,BUS,10,"projector,whiteboard"

@@ -1,0 +1,5 @@
+from,to,distance
+LIB,SCI,0.8
+SCI,ENG,1.0
+LIB,BUS,1.5
+BUS,ENG,0.7
