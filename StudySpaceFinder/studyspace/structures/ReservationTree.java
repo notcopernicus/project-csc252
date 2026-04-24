@@ -85,7 +85,7 @@ public class ReservationTree {
         if (all.isEmpty()) {
             System.out.println("No reservations scheduled.");
         } else {
-            System.out.println("--- All Reservations ---");
+            System.out.println("All Reservations");
             for (Reservation r : all) {
                 System.out.println("  " + r);
             }
